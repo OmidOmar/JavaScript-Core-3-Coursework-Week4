@@ -7,6 +7,7 @@ test("returns largest number in array", function () {
 
   // Act
   const result = getLargestNumber(input);
+  
   // Assert
   expect(result).toEqual(expected);
   expect(input).toEqual([3, 21, 88, 4, 36]);
